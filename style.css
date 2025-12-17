@@ -1,0 +1,25 @@
+
+
+/* --- BOTÓN DORADO (Prioridad Alta) --- */
+
+
+.btn-dorado {
+    background-color: #564a42;
+    color: #FFFFFF;
+    border: 2px solid #AF8D84;
+    box-shadow: none;
+}
+
+.btn-outline {
+    background-color: #AF8D84;
+    color: #FFFFFF;
+    border: 2px solid #D4AF37;
+    box-shadow: none;
+}
+
+.btn-dorado:hover {
+    background-color: transparent;
+    color: #D4AF37;
+    border: 2px solid #D4AF37;
+}
+
