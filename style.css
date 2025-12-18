@@ -1,25 +1,57 @@
-
-
-/* --- BOTÓN DORADO (Prioridad Alta) --- */
-
-
-.btn-dorado {
-    background-color: #564a42;
-    color: #FFFFFF;
-    border: 2px solid #AF8D84;
-    box-shadow: none;
+/*Barra de navegacion*/
+.navbar-brand {
+    font-family: 'Cormorant Garamond', serif; 
+    font-weight: 700;       
+    text-transform: uppercase; 
+    letter-spacing: 2px;    
+    font-size: 1.8rem;      
+   background: linear-gradient(to right, #C5A059, #F2D1A8);
+    -webkit-background-clip: text;
+    color: transparent; /* Hace transparente la letra para que se vea el fondo dorado */
 }
 
-.btn-outline {
-    background-color: #AF8D84;
-    color: #FFFFFF;
-    border: 2px solid #D4AF37;
-    box-shadow: none;
+/* Botone principal dorado */
+.btn-oro {
+    background-color: #CCA878;
+    color: #FFFFFF;   
+    border: 1px solid #CCA878; 
+    transition: all 0.3s ease;   
 }
 
-.btn-dorado:hover {
+/* animacion */
+.btn-oro:hover {
+    background-color: #b39163;
+    border-color: #b39163;
+    color: #FFFFFF;
+}
+
+/*Boton secundario*/
+.btn-outline-oro {
     background-color: transparent;
-    color: #D4AF37;
-    border: 2px solid #D4AF37;
+    color: #FFFFFF;
+    border: 2px solid #CCA878;
 }
+
+/* Animacion */
+.btn-outline-oro:hover {
+    background-color: #CCA878;
+    color: #FFFFFF;
+    border: 2px solid #CCA878;
+}
+
+/*Tipografia*/
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 3.5rem;
+    margin-top: 150px;
+    display: i;
+}
+
+/*Color Chocolate para los títulos*/
+h2, h3, h5 {
+    color: #3E2C24;
+}
+
 
