@@ -9,10 +9,10 @@ body {
 }
 
 .formulario-container {                                                                                 
-    background-color: #f6c8cc;      
+    background-color: white;      
     padding: 20px;
     border-radius: 50px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 15px rgba(62, 44, 36, 5);
     width: 100%;
     max-width: 400px;
     display: flex;
